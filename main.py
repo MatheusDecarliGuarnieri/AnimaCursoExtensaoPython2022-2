@@ -1,23 +1,15 @@
-# Meu primeiro projeto python!!!
+# comando imput (): quero permitir que
+#o usuario digite algo...
 
-#print() = comando de saído
-print("Alô mundo!")
+# pede o nome
+nome = input("Digite seu nome: ")
 
-#Guardar string 
-nome = "Matheus Decarli"
-idade = 18
+# pede idade
+idade = int(input("Digite sua idade: "))
 
-#Exibir nome dentro da variável
-print("Meu nome é", nome,", Tenho",idade,"anos")
+#comando de saída..exibir na tela
+print ("Olá seu nome é {} e sua idade é {}".format(nome, idade))
 
-#Jeitos de exibir inteiros
-print("Minha idade é "+str(idade))
-print(f"MInha idade é de {idade}")
-print("Minha idade é de {} anos".format(idade))
-
-#Exibir duas variáveis com .format
-print("Meu nome é {} e tenho {} anos".format(nome, idade))
-
-'''
-Comentario em bloco
-'''
+#e se eu quisse mostrar o dobro da idade informada?
+dobro = idade * 2
+print ("o dobro da idade informada é {}".format(dobro))

@@ -3,9 +3,6 @@
 #print() = comando de saído
 print("Alô mundo!")
 
-#print() = comando de saído
-print("Alô mundo!")
-
 #Guardar string 
 nome = "Matheus Decarli"
 idade = 18
